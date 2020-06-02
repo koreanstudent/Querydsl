@@ -12,8 +12,6 @@ import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 
 import com.querydsl.core.BooleanBuilder;
-import com.querydsl.core.types.Predicate;
-import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
@@ -21,7 +19,7 @@ import study.querydsl.dto.MemberSearchCondition;
 import study.querydsl.dto.MemberTeamDto;
 import study.querydsl.dto.QMemberTeamDto;
 import study.querydsl.entity.Member;
-
+// 순수 jpa와 querydsl
 @Repository
 public class MemberJpaRepository {
 
